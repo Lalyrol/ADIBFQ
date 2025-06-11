@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Formulario de Inscripción - ADIFBQF</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 30px;
+      background-color: #f0f8ff;
+    }
+    h2 {
+      color: #003366;
+    }
+    label {
+      display: block;
+      margin-top: 15px;
+      font-weight: bold;
+    }
+    input[type="text"], select {
+      width: 100%;
+      padding: 8px;
+      margin-top: 5px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+    }
+    th, td {
+      padding: 10px;
+      text-align: left;
+      border-bottom: 1px solid #ddd;
+    }
+    .checkbox-cell {
+      text-align: center;
+    }
+    .submit-btn {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 16px;
+      background-color: #0059b3;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+    }
+    .submit-btn:hover {
+      background-color: #004080;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Formulario de Inscripción - ADIFBQF</h2>
+
+  <form action="https://script.google.com/macros/s/AKfycbyF9IGEqJyXY1HMmYGxQxDV9wCWnsh85F61pLYTDuUv6oi2lCUOlsffOA7NX7PUdaiVDg/exec" method="POST">
+    <label for="instituto">Instituto</label>
+    <select id="instituto" name="instituto">
+      <option value="Bioquímica Aplicada">Bioquímica Aplicada</option>
+      <option value="Biotecnología">Biotecnología</option>
+      <option value="Estudios Farmacológicos">Estudios Farmacológicos</option>
+      <option value="Farmacia">Farmacia</option>
+      <option value="Física">Física</option>
+      <option value="Matemática">Matemática</option>
+      <option value="Microbiología">Microbiología</option>
+      <option value="Química Analítica">Química Analítica</option>
+      <option value="Química Biológica">Química Biológica</option>
+      <option value="Química Física">Química Física</option>
+      <option value="Química Inorgánica">Química Inorgánica</option>
+      <option value="Química Orgánica">Química Orgánica</option>
+    </select>
+
+    <label for="delegada">Nombre de la Delegada</label>
+    <input type="text" id="delegada" name="delegada">
+
+    <label>Asistentes</label>
+    <table>
+      <thead>
+        <tr>
+          <th>Título, Nombre y Apellido</th>
+          <th class="checkbox-cell">Celíaco</th>
+          <th class="checkbox-cell">Socio</th>
+        </tr>
+      </thead>
+      <tbody>
+
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+        <tr>
+          <td><input type="text" name="asistente[]"></td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="celiaco[]" value="No">
+            <input type="checkbox" name="celiaco[]" value="Sí">
+          </td>
+          <td class="checkbox-cell">
+            <input type="hidden" name="socio[]" value="No">
+            <input type="checkbox" name="socio[]" value="Sí">
+          </td>
+        </tr>
+    
+      </tbody>
+    </table>
+
+    <button class="submit-btn" type="submit">Enviar</button>
+  </form>
+
+</body>
+</html>
